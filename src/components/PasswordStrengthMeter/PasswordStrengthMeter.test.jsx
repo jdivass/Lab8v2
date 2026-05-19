@@ -1,7 +1,7 @@
 
 import { render, screen } from '@testing-library/react'
 import { PasswordStrengthMeter } from './PasswordStrengthMeter'
-import  userEvent from 'vitest/browser'
+import userEvent from '@testing-library/user-event'
 
 //Tests de renderizado
 describe('PasswordStrengthMeter', () => {
