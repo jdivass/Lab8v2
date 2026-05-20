@@ -22,7 +22,7 @@ bun install
 ## Ejecutar los tests
 
 ```bash
-bun test
+bun run test
 ```
 
 También se puede correr en modo watch con UI:
